@@ -19,5 +19,5 @@ using JuliaFormatter
     end
     @testset "Formatting (JuliaFormatter.jl)" begin
         JuliaFormatter.format(".", SciMLStyle())
-    end    
+    end
 end
